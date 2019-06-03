@@ -41,10 +41,8 @@ public class People {
 
     @Override
     public String toString() {
-        return "student.People{" +
-                "name='" + name + '\'' +
+        return "name='" + name + '\'' +
                 ", age=" + age +
-                ", gender=" + gender +
-                '}';
+                ", gender=" + gender;
     }
 }
