@@ -4,6 +4,8 @@ import student.Gender;
 import student.Group;
 import student.Student;
 
+import java.util.Arrays;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -42,21 +44,22 @@ public class Main {
 
         System.out.println(group.toString());
 
-        group.setGroup(group.sortGroup());
 
-        System.out.println("Sorted by name: " + group.toString());
 
         System.out.println(group.findStudent("Rodion Gazmanow"));
 
-       /* try {
+        try {
             group.addInteractiveSt();
         } catch (AddStudentException e) {
             e.printStackTrace();
-        }*/
+        }
 
-        //System.out.println("Sorted by name: " + group.toString());*/
+        group.setGroup(group.sortGroup());
+        System.out.println("Sorted by name: " + group.toString());
 
+        System.out.println(Arrays.toString(group.getToArmyNow()));
 
-        //group.getToArmyNow();
+        group.sortByGender();
+        System.out.println("Sorted by gender: " + group.toString());
     }
 }

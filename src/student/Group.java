@@ -3,16 +3,21 @@ package student;
 import com.sun.istack.internal.Nullable;
 import exception.AddStudentException;
 import exception.RemoveStudentException;
-//import javax.swing.JOptionPane;
+import javax.swing.JOptionPane;
 import java.util.Arrays;
 
-//import static student.Gender.MAN;
+import static student.Gender.MAN;
+import static student.Gender.WOMAN;
 
 public class Group implements Voenka {
     private int number = 0;
     private Student[] group = new Student[10];
 
     public Group() {
+    }
+
+    public Group(Student[] group) {
+        this.group = group;
     }
 
     public Group(int number, Student[] group) {
@@ -67,7 +72,11 @@ public class Group implements Voenka {
         if (name == null || name.equals("") == true){
             throw new IllegalArgumentException("Student can not be null!");
         }
+
         for (Student student : group) {
+            if (student == null){
+                continue;
+            }
             if (student.getName().equals(name) == true) {
                 return student;
             }
@@ -107,26 +116,100 @@ public class Group implements Voenka {
                 '}';
     }
 
-    /*public void addInteractiveSt() throws AddStudentException {
+    public void addInteractiveSt() throws AddStudentException {
         Student st = new Student();
+        try {
             st.setName(String.valueOf(JOptionPane.showInputDialog("Input name of student:")));
-            st.setFaculty(String.valueOf(JOptionPane.showInputDialog("Input faculty of student:")));
-            st.setGroupName(String.valueOf(JOptionPane.showInputDialog("Input group of student:")));
-            st.setYear(Integer.valueOf(JOptionPane.showInputDialog("Input information of student:")));
+            st.setAge(Integer.valueOf(JOptionPane.showInputDialog("Input age:")));
+            st.setGender(Gender.valueOf((JOptionPane.showInputDialog("Input gender (man / woman):")).toUpperCase()));
+            st.setYear(Integer.valueOf(JOptionPane.showInputDialog("Input year:")));
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Error number format");
+        } catch (NullPointerException ex) {
+            JOptionPane.showMessageDialog(null, "Cancel");
+        }
+
+        if (st == null){
+            throw new IllegalArgumentException("You try to add null value. Please, check input params and try again later.");
+        }
+
+        checkParam(st);
+
         addStudent(st);
-    }*/
+    }
+
+    private void checkParam(Student st) {
+        String groupN = "";
+        String facult = "";
+        String un = "";
+        for (int i = 0; i < group.length; i++) {
+            if (group[i] != null) {
+                groupN = group[i].getGroupName();
+                facult = group[i].getFaculty();
+                un = group[i].getUniversity();
+                break;
+            }
+        }
+        st.setGroupName(groupN);
+        st.setFaculty(facult);
+        st.setUniversity(un);
+    }
 
     @Override
     public Student [] getToArmyNow(){
-        String st [] = new String[1];
-        /*for (int i = 0; i < group.length; i++) {
+        int n = 0;
+        for (int i = 0; i < group.length; i++) {
             if (group[i] != null
                     && group[i].getAge() > 18
                     && group[i].getGender() == MAN){
-                resize(st, group[i].getName());
+                n++;
             }
-        }*/
-        return new Student[0];
+        }
+        Student[] st = new Student[n];
+        Group gr = new Group(st);
+        for (int i = 0; i < group.length; i++) {
+            if (group[i] != null
+                    && group[i].getAge() > 18
+                    && group[i].getGender() == MAN){
+                try {
+                    gr.addStudent(group[i]);
+                } catch (AddStudentException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+        return gr.getStudent();
+    }
+
+    private Student[] getStudent() {
+        return group;
+    }
+
+    public Student [] sortByGender(){
+        if (group == null){
+            return null;
+        }
+        int n = 0;
+        while (n < group.length) {
+            for (int i = 0; i < group.length - 1; i++) {
+                if (group[i] != null && group[i + 1] != null) {
+                    Gender a = group[i].getGender();
+                    Gender b = group[i + 1].getGender();
+                    if (a == MAN && b == WOMAN){
+                        Student st = group[i];
+                        group[i] = group[i + 1];
+                        group[i + 1] = st;
+                    }
+                } else if (group[i] == null && group[i + 1] != null) {
+                    Student st = group[i];
+                    group[i] = group[i + 1];
+                    group[i + 1] = st;
+                }
+            }
+            n++;
+        }
+        return group;
     }
 
 }
