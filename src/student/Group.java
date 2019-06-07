@@ -4,6 +4,9 @@ import com.sun.istack.internal.Nullable;
 import exception.AddStudentException;
 import exception.RemoveStudentException;
 import javax.swing.JOptionPane;
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Arrays;
 
 import static student.Gender.MAN;
@@ -210,6 +213,26 @@ public class Group implements Voenka {
             n++;
         }
         return group;
+    }
+
+    public void writeGroupInFile(){
+        File file = new File("Group.csv");
+        try {
+            file.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        getReport(group, file);
+    }
+
+    public void getReport(Student [] group, File file){
+        try (PrintWriter pw = new PrintWriter(file)){
+            for (int i = 0; i < group.length; i++) {
+                pw.println(group[i] + "\n");
+            }
+        }catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 }

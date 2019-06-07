@@ -60,6 +60,7 @@ public class Main {
         System.out.println(Arrays.toString(group.getToArmyNow()));
 
         group.sortByGender();
-        System.out.println("Sorted by gender: " + group.toString());
+        //System.out.println("Sorted by gender: " + group.toString());
+        group.writeGroupInFile();
     }
 }
