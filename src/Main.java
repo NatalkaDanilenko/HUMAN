@@ -1,13 +1,9 @@
 import exception.AddStudentException;
-import exception.RemoveStudentException;
 import student.Gender;
 import student.Group;
 import student.Student;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.Arrays;
 
 
@@ -29,8 +25,34 @@ public class Main {
         students[4] = new Student("Oleg Vinnyk",
                 20, Gender.MAN, "KPI named by I. Sikorsky",
                 "FICT", 2, "FC22");
-        Group group = new Group(221, students);/*
+        Group group = new Group(221, students);
+
         System.out.println(group.toString());
+
+        try(ObjectOutputStream OOS=new ObjectOutputStream(new FileOutputStream("fil"))){
+            OOS.writeObject(group);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        Group newGroup = null;
+        try (ObjectInputStream OIS=new ObjectInputStream(new FileInputStream("fil"))){
+            newGroup = (Group)OIS.readObject();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Вывод данных считанного объекта");
+
+        System.out.println(newGroup.toString());
+
+
+        /*
         try {
             group.addStudent(new Student("Rodion Gazmanow",
                     21, Gender.MAN, "KPI named by I. Sikorsky",
@@ -63,7 +85,7 @@ public class Main {
 
         System.out.println(Arrays.toString(group.getToArmyNow()));
 */
-        group.sortByGender();
+        /*group.sortByGender();
         //System.out.println("Sorted by gender: " + group.toString());
         group.writeGroupInFile();
         File file1 = new File("/Users/nataliadanilenko/Documents/GIT/HUMAN/Group.csv");
@@ -72,13 +94,15 @@ public class Main {
             System.out.println("Group from file: " + createGroup(file1).toString());
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
     }
 
-    private static Group createGroup(File file1) throws IOException {
+    /*private static Group createGroup(File file1) throws IOException {
         Group myGroup = new Group();
         String[] str1 = readFile(file1).split("\n");
+
+        System.out.println(Arrays.toString(str1));
         for (String s : str1) {
             Student st = new Student();
             String [] info = s.split(", ");
@@ -117,16 +141,15 @@ public class Main {
         }
 
         return myGroup;
-    }
+    }*/
 
-    public static String readFile(File file) throws IOException {
+    /*public static String readFile(File file) throws IOException {
         BufferedReader f = new BufferedReader(new FileReader(file));
         String str = "";
         String out = "";
         for (; (str = f.readLine()) != null; ) {
-            out = out + str;
+            out = out + str+"\n";
         }
-        System.out.println(out);
         return out;
-    }
+    }*/
 }

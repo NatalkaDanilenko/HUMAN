@@ -1,6 +1,9 @@
 package student;
 
-public class Student extends People {
+import java.io.Serializable;
+
+public class Student extends People implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String university;
     private String faculty;
     private int year;
