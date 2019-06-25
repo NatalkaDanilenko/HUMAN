@@ -9,7 +9,13 @@ public class Student extends People implements Serializable {
     private int year;
     private String groupName;
 
-    public Student(String name, int age, Gender gender, String university, String faculty, int year, String groupName) {
+    public Student(String name,
+                   int age,
+                   Gender gender,
+                   String university,
+                   String faculty,
+                   int year,
+                   String groupName) {
         super(name, age, gender);
         this.university = university;
         this.faculty = faculty;

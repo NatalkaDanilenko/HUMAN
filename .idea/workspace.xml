@@ -33,16 +33,13 @@
       <change afterPath="$PROJECT_DIR$/../HAPPY_MAP/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HAPPY_MAP/HAPPY_MAP.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HAPPY_MAP/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HUMAN.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/AddStudentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/RemoveStudentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/student/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/AddRemoveStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/CreateGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/SaveGetGroupFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/AddInteractiveStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/FindStudentInGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/SortStudentInGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/WriteGroup.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HUNDERT_THREADS/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HUNDERT_THREADS/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HUNDERT_THREADS/.idea/modules.xml" afterDir="false" />
@@ -103,6 +100,20 @@
       <change afterPath="$PROJECT_DIR$/../SORT_OBJECT_IN_CLASS/src/BallSizeComparator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SORT_OBJECT_IN_CLASS/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SORT_OBJECT_IN_CLASS/src/NullCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STACK_ELEMENTS/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STACK_ELEMENTS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STACK_ELEMENTS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STACK_ELEMENTS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STACK_ELEMENTS/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STACK_ELEMENTS/STACK_ELEMENTS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STACK_ELEMENTS/src/exception/CannotAddProductException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STACK_ELEMENTS/src/products/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STACK_ELEMENTS/src/products/Meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STACK_ELEMENTS/src/products/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STACK_ELEMENTS/src/products/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STACK_ELEMENTS/src/products/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STACK_ELEMENTS/src/stack/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STACK_ELEMENTS/src/stack/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SUM_INTEGER_WITH_THREADS/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SUM_INTEGER_WITH_THREADS/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SUM_INTEGER_WITH_THREADS/.idea/modules.xml" afterDir="false" />
@@ -111,6 +122,15 @@
       <change afterPath="$PROJECT_DIR$/../SUM_INTEGER_WITH_THREADS/SUM_INTEGER_WITH_THREADS.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SUM_INTEGER_WITH_THREADS/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SUM_INTEGER_WITH_THREADS/src/NewThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WITH_CONNECTION/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WITH_CONNECTION/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WITH_CONNECTION/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WITH_CONNECTION/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WITH_CONNECTION/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WITH_CONNECTION/WITH_CONNECTION.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WITH_CONNECTION/src/lesson11a/IOService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WITH_CONNECTION/src/lesson11a/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WITH_CONNECTION/src/lesson11a/WebService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WITH_FACTORIAL/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WITH_FACTORIAL/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WITH_FACTORIAL/.idea/modules.xml" afterDir="false" />
@@ -140,9 +160,9 @@
       <change beforePath="$PROJECT_DIR$/Group.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Group.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HUMAN/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUMAN/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HUMAN/student/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUMAN/student/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HUMAN/student/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HUMAN/student/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/student/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/People.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PHONE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PHONE/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TRIANGLE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TRIANGLE/.idea/workspace.xml" afterDir="false" />
@@ -160,38 +180,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/student/People.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+            <state relative-caret-position="120">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Group.csv">
+        <entry file="file://$PROJECT_DIR$/src/services/AddInteractiveStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="-185">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/student/Student.java">
+        <entry file="file://$PROJECT_DIR$/src/logic/AddRemoveStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="425">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logic/SaveGetGroupFromFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logic/CreateGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,50 +253,77 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/student/Group.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+            <state relative-caret-position="418">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <element signature="method#Group#0;class#Group#0" />
-                <element signature="method#Group#2;class#Group#0" />
-                <element signature="method#addStudent#0;class#Group#0" />
-                <element signature="method#removeStudent#0;class#Group#0" />
-                <element signature="method#findStudent#0;class#Group#0" />
-                <element signature="method#addInteractiveSt#0;class#Group#0" />
-                <element signature="method#sortGroup#0;class#Group#0" />
-                <element signature="method#sortByGender#0;class#Group#0" />
-                <element signature="method#checkParam#0;class#Group#0" />
-                <element signature="method#getToArmyNow#0;class#Group#0" />
-                <element signature="method#toString#0;class#Group#0" />
-                <element signature="method#writeGroupInFile#0;class#Group#0" />
-                <element signature="method#getReport#0;class#Group#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/student/Voenka.java">
+        <entry file="file://$PROJECT_DIR$/src/services/FindStudentInGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="624">
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exception/RemoveStudentException.java">
+        <entry file="file://$PROJECT_DIR$/src/services/SortStudentInGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="855">
+              <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exception/AddStudentException.java">
+        <entry file="file://$PROJECT_DIR$/src/services/WriteGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="484">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -286,16 +367,25 @@
         <option value="$PROJECT_DIR$/src/student/StusentComparator.java" />
         <option value="$PROJECT_DIR$/src/student/Voenka.java" />
         <option value="$PROJECT_DIR$/Group.csv" />
-        <option value="$PROJECT_DIR$/src/student/Group.java" />
-        <option value="$PROJECT_DIR$/src/student/Student.java" />
         <option value="$PROJECT_DIR$/src/student/People.java" />
+        <option value="$PROJECT_DIR$/src/services/WriteGroup.java" />
+        <option value="$PROJECT_DIR$/src/services/AddInteractiveStudent.java" />
+        <option value="$PROJECT_DIR$/src/services/GoToArmyStudent.java" />
+        <option value="$PROJECT_DIR$/src/student/Student.java" />
+        <option value="$PROJECT_DIR$/src/student/Group.java" />
+        <option value="$PROJECT_DIR$/src/services/CreateGroup.java" />
+        <option value="$PROJECT_DIR$/src/logic/CreateGroup.java" />
+        <option value="$PROJECT_DIR$/src/logic/SeveGetGroupFromFile.java" />
+        <option value="$PROJECT_DIR$/src/logic/AddRemoveStudent.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/services/FindStudentInGroup.java" />
+        <option value="$PROJECT_DIR$/src/services/SortStudentInGroup.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="25" />
-    <option name="y" value="52" />
+    <option name="y" value="34" />
     <option name="width" value="1400" />
     <option name="height" value="760" />
   </component>
@@ -323,13 +413,13 @@
               <item name="HUMAN" type="b2602c69:ProjectViewProjectNode" />
               <item name="HUMAN" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HUMAN" type="b2602c69:ProjectViewProjectNode" />
               <item name="HUMAN" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -338,10 +428,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561146162964" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561497394245" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="exception" />
       <recent name="student" />
@@ -390,10 +483,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="52" width="1400" height="760" extended-state="0" />
+    <frame x="25" y="34" width="1400" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2371134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22238587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -402,14 +495,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934132" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23952095" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26796407" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48952097" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.04491018" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32784432" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -464,46 +557,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/student/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding>
-            <element signature="method#Group#0;class#Group#0" />
-            <element signature="method#Group#2;class#Group#0" />
-            <element signature="method#addStudent#0;class#Group#0" />
-            <element signature="method#removeStudent#0;class#Group#0" />
-            <element signature="method#findStudent#0;class#Group#0" />
-            <element signature="method#addInteractiveSt#0;class#Group#0" />
-            <element signature="method#sortGroup#0;class#Group#0" />
-            <element signature="method#sortByGender#0;class#Group#0" />
-            <element signature="method#checkParam#0;class#Group#0" />
-            <element signature="method#getToArmyNow#0;class#Group#0" />
-            <element signature="method#toString#0;class#Group#0" />
-            <element signature="method#writeGroupInFile#0;class#Group#0" />
-            <element signature="method#getReport#0;class#Group#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/student/Voenka.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exception/RemoveStudentException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exception/AddStudentException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -514,24 +578,175 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Class1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/GoToArmyStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="5" lean-forward="true" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/student/People.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="95">
           <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/student/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/WriteGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exception/RemoveStudentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/AddRemoveStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/CreateGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/student/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/SaveGetGroupFromFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/AddInteractiveStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/FindStudentInGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/SortStudentInGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        <state relative-caret-position="120">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
