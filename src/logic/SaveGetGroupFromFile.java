@@ -14,7 +14,7 @@ public class SaveGetGroupFromFile {
         this.group = group;
     }
 
-    public void SaveIntoFile() {
+    public void saveIntoFile() {
         try (ObjectOutputStream OOS = new ObjectOutputStream(new FileOutputStream("fil"))) {
             OOS.writeObject(group);
         } catch (IOException e) {
@@ -22,7 +22,7 @@ public class SaveGetGroupFromFile {
         }
     }
 
-    public void GetFromFile() {
+    public void getFromFile() {
         Group newGroup = null;
         try (
                 ObjectInputStream OIS = new ObjectInputStream(new FileInputStream("fil"))) {

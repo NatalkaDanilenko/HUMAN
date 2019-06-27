@@ -16,11 +16,11 @@ public class Main {
         Group group = create.createGroup();
         System.out.println(group.toString());
         SaveGetGroupFromFile saveGetGroupFromFile = new SaveGetGroupFromFile(group);
-        saveGetGroupFromFile.SaveIntoFile();
-        saveGetGroupFromFile.GetFromFile();
+        saveGetGroupFromFile.saveIntoFile();
+        saveGetGroupFromFile.getFromFile();
 
         AddRemoveStudent addAndRemove = new AddRemoveStudent(group);
-        addAndRemove.AddRemoveStudent();
+        addAndRemove.addRemoveStudent();
 
         FindStudentInGroup findSt = new FindStudentInGroup(group);
         System.out.println(findSt.findStudent("Rodion Gazmanow"));

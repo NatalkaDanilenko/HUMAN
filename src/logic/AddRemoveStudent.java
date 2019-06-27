@@ -16,7 +16,7 @@ public class AddRemoveStudent {
         this.group = group;
     }
 
-    public void AddRemoveStudent() {
+    public void addRemoveStudent() {
         try {
             group.addStudent(new Student("Rodion Gazmanow",
                     21, Gender.MAN, "KPI named by I. Sikorsky",
